@@ -256,7 +256,7 @@ void LinkedList<T>::remove(int index)
     if (length == 0) return;
 
     // Do nothing if index is out of bound
-    if (index < 0 || index > length) return;
+    if (index < 0 || index >= length) return;
 
     // If removing the current head
     if (index == 1)
