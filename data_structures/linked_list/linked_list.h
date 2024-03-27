@@ -274,7 +274,6 @@ public:
 			std::cout << this->get(i) << " ";
 		}
 		std::cout << "\n";
-	
 	}
 	Iterator<T> begin() const {
 		return Iterator<T>(head_);
